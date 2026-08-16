@@ -1,9 +1,28 @@
-<h1><center> paperclip </center></h1>
+<head> 
+<style>
+.position-container {
+  position: relative;             /* Establishes positioning context for the child */
+  height: 100vh;                  /* Explicit height required for vertical alignment */
+}
+
+.centered-image {
+  position: absolute;             /* Pulls the image out of normal document flow */
+  top: 50%;                       /* Pushes image top edge to the container center */
+  left: 50%;                      /* Pushes image left edge to the container center */
+  transform: translate(-50%, -50%); /* Shifts image back by half its own height and width */
+}
+
+</style>
+<.head>
 
 
+<body style="background-color: black;">
+    <h1>paperclip</h1>
 
+<div class="position-container">
+  <img src="https://cdn.discordapp.com/avatars/947169717204951060/d3006f1704e7cb7b7cb9b83dd77de68d.png?size=4096" alt="paperclip" class="centered-image">
+</div>
 
-
-
+</body>
 
 
