@@ -1,5 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
 <head> 
 <style>
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden; 
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
 .position-container {
   position: relative;          
   height: 100vh;             
@@ -10,19 +29,17 @@
   top: 50%;                       
   left: 50%;              
   transform: translate(-50%, -50%); 
+  max-height: 80vh;
+  width: auto;
 }
-
 </style>
-<.head>
+</head>
 
+<body>
+  <h1>paperclip</h1>
 
-<body style="background-color: black;">
-    <h1>paperclip</h1>
-
-<div class="position-container">
-  <img src="https://cdn.discordapp.com/avatars/947169717204951060/d3006f1704e7cb7b7cb9b83dd77de68d.png?size=4096" alt="paperclip" class="centered-image">
-</div>
-
+  <div class="position-container">
+    <img src="https://cdn.discordapp.com/avatars/947169717204951060/d3006f1704e7cb7b7cb9b83dd77de68d.png?size=4096" class="centered-image">
+  </div>
 </body>
-
-
+</html>
